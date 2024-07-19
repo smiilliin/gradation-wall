@@ -1,0 +1,26 @@
+{
+  "name": "gradation-wall",
+  "version": "1.0.0",
+  "main": "bundle.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/parser": "^7.16.1",
+    "eslint": "^8.56.0",
+    "ts-loader": "^9.5.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "pixi.js": "^7.4.2",
+    "ts-perlin-simplex": "^0.0.3"
+  }
+}
